@@ -17,7 +17,6 @@
 - **Live Site URL**: [Live Demo](https://mustafapinjari.netlify.app)
 
 ## 🖼 Screenshots
-
 ![📱 Mobile view Light Theme](./design/Mobile-Light-ScreenShot.png)
 ![🌑 Mobile view Dark Theme](./design/Mobile-dark-ScreenShot.png)
 ![💻 Desktop view Light Theme](./design/Desktop-Light-ScreenShot.png)
