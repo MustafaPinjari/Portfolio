@@ -6,6 +6,7 @@
     <title>Mutafa Pinjari | Portfolio</title>
     <link rel="icon" type="image/png" href="img/Mustafa-light.png" loading="lazy">
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -146,6 +147,7 @@
         id="home"
         class="pt-30 mb-5 flex flex-col items-center justify-center gap-3 px-[12%] py-10 text-center font-ovo sm:gap-5"
       >
+      
         <img
           src="img/profile-img.png"
           loading="lazy"
@@ -185,6 +187,8 @@
             />
           </button>
         </div>
+
+        
       </section>
 
       <!-- about section -->
@@ -344,7 +348,49 @@
           </div>
         </div>
       </section>
-
+      <!-- Projects -->
+      <section class="projects-section">
+        <h2 class="my-5 text-center text-5xl">Projects</h2>
+        <div class="container" style="display: flex; height: 80vh; width: 100vw; align-items: center; justify-content: flex-start; padding-left: 20vw;">
+            <div class="grid" style="display: grid; width: 70%; height: 100%; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(6, 1fr); gap: 16px; padding: 16px; border-radius: 12px;">
+    
+                <!-- Grid item 1 (taller) -->
+                <div class="grid-item" style="position: relative; grid-column: span 2; grid-row: span 4; background-color: #f0f0f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
+                    <img src="/img/Gf.png" alt="Image 1" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(0.8); transition: filter 0.3s ease;">
+                    <div class="grid-item-overlay" style="position: absolute; bottom: 0; left: 0; right: 0; height: 50%; background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0)); padding: 16px; color: white;">
+                        <h3 style="margin: 0; font-size: 1.5rem;">GuestureFlow</h3>
+                    </div>
+                </div>
+    
+                <!-- Grid item 2 (shorter) -->
+                <div class="grid-item" style="position: relative; grid-column: span 2; grid-row: span 2; background-color: #f0f0f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
+                    <img src="img/pdf.png" alt="Image 2" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(0.8); transition: filter 0.3s ease;">
+                    <div class="grid-item-overlay" style="position: absolute; bottom: 0; left: 0; right: 0; height: 50%; background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0)); padding: 16px; color: white;">
+                        <h3 style="margin: 0; font-size: 1.5rem;">Pdfiy</h3>
+                    </div>
+                </div>
+    
+                <!-- Grid item 3 (taller) -->
+                <div class="grid-item" style="position: relative; grid-column: span 2; grid-row: span 4; background-color: #f0f0f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
+                    <img src="img/NextGenCV.png" alt="Image 3" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(0.8); transition: filter 0.3s ease;">
+                    <div class="grid-item-overlay" style="position: absolute; bottom: 0; left: 0; right: 0; height: 50%; background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0)); padding: 16px; color: white;">
+                        <h3 style="margin: 0; font-size: 1.5rem;">NextGenCv</h3>
+                    </div>
+                </div>
+    
+                <!-- Grid item 4 (shorter) -->
+                <div class="grid-item" style="position: relative; grid-column: span 2; grid-row: span 2; background-color: #f0f0f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
+                    <img src="img/EP.png" alt="Image 4" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(0.8); transition: filter 0.3s ease;">
+                    <div class="grid-item-overlay" style="position: absolute; bottom: 0; left: 0; right: 0; height: 50%; background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0)); padding: 16px; color: white;">
+                        <h3 style="margin: 0; font-size: 1.5rem;">ExoPlanet</h3>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    
+    
       <!-- service section -->
 
       <section
@@ -598,12 +644,12 @@
         <!-- form integration -->
 
         <!-- with web3forms but it doesn't allow -->
-        <!-- <form
+        <form
           action="https://api.web3forms.com/submit"
           method="POST"
           class="mx-auto my-10 flex max-w-2xl flex-col gap-6 font-outfit"
           id="form-submit"
-        > -->
+        >
         <form
           action="https://usebasin.com/f/d84c61317dbc
           "

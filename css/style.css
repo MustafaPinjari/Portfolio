@@ -13,3 +13,10 @@ body {
   color: red;
   display: none;
 }
+
+@media (max-width: 768px) {
+  .projects-section {
+      display: none;
+  }
+}
+
